@@ -31,7 +31,7 @@
 102C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\src\sass\_upload.scss132886955210000000 0
 122C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\type-fest\source\except.d.ts133240255756452788 0
 141C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\@parcel\transformer-json\lib\JSONTransformer.js133240255744246636 0
-85C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist133248044674296286 1
+85C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist133248068711501845 1
 124C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\core-js\features\map\update.js133240596717309306 0
 104C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\is-extglob133240255745962259 1
 124C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\core-js\full\weak-set\index.js133240596653634646 0
@@ -44,7 +44,7 @@
 91C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\.gitignore133247949095254522 0
 174C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\sub133240255769907869 1
 93C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\package.json133243275250784376 0
-101C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\src\js\controller.js133248038375780602 0
+101C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\src\js\controller.js133248067587135147 0
 118C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\css-select\lib\sort.d.ts133240255763302356 0
 124C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\core-js\stable\array\concat.js133240596587680162 0
 125C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\core-js\full\error\to-string.js133240596710691605 0
@@ -182,7 +182,7 @@
 122C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\core-js\es\json\stringify.js133240596699741908 0
 126C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\core-js\full\typed-array\with.js133240596721602557 0
 114C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\electron-to-chromium133240255756467944 1
-96C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\src\js\model.js133248005576476116 0
+96C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\src\js\model.js133248068710303273 0
 113C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\lmdb\src\writer.cpp133240255770823374 0
 145C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_dump.c133240255764612079 0
 140C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\abortcontroller-polyfill\src\abortableFetch.js133240255744186629 0
@@ -209,7 +209,7 @@
 125C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\caniuse-lite\data\regions\NO.js133240255786094733 0
 115C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\sass\types\index.d.ts133240256752013701 0
 142C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\css-select\lib\pseudo-selectors\pseudos.d.ts.map133240255759511557 0
-110C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\src\js\views\bookmarksView.js133248043399594717 0
+110C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\src\js\views\bookmarksView.js133248066009232526 0
 109C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\json5\README.md133240255756291456 0
 121C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\core-js\stable\math\tanh.js133240596702087945 0
 131C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\core-js\modules\esnext.map.emplace.js133240596613314284 0
@@ -2166,7 +2166,7 @@
 129C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\css-tree\lib\syntax\function\var.js133240255773298280 0
 116C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\escalade\sync\index.js133240255745540466 0
 124C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\nth-check\lib\esm\compile.d.ts133240255759541570 0
-106C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\favicon.8b2f57bf.png133248043022098615 0
+106C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\favicon.8b2f57bf.png133248065875687765 0
 120C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\@parcel\graph\package.json133240255758472278 0
 122C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\htmlnano\docs\versioned_docs133240255766292919 1
 127C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\postcss-value-parser\package.json133240255751595845 0
@@ -5029,7 +5029,7 @@
 139C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\core-js\full\string\virtual\is-well-formed.js133240596662822899 0
 127C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\core-js\features\string\anchor.js133240596575466835 0
 133C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\core-js\features\string\virtual\trim.js133240596714151201 0
-96C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\index.html133248043021296921 0
+96C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\index.html133248065874909329 0
 133C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\core-js\full\string\virtual\iterator.js133240596665185220 0
 141C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\caniuse-lite\data\features\chacha20-poly1305.js133240255771079188 0
 111C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\caniuse-lite\dist133240255789178330 1
@@ -6221,7 +6221,7 @@
 128C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\core-js\actual\string\ends-with.js133240596595889544 0
 124C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\core-js\actual\string\fixed.js133240596628442189 0
 134C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\core-js\actual\string\from-code-point.js133240596635993671 0
-104C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\index.f7626f62.css133248043021725041 0
+104C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\index.f7626f62.css133248065875569452 0
 130C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\@parcel\utils\test\sourcemap.test.js133240255768461363 0
 127C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\core-js\actual\string\includes.js133240596645184478 0
 124C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\core-js\actual\string\index.js133240596648485267 0
@@ -7467,7 +7467,7 @@
 126C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\@parcel\source-map\dist\types.js133240255756950544 0
 143C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\@parcel\source-map\dist\wasm-bindings-web.js.flow133240255749672279 0
 134C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\@parcel\source-map\dist\wasm-bindings.js133240255757995288 0
-104C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\icons.dfd7a6db.svg133248043021695032 0
+104C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\icons.dfd7a6db.svg133248065875539386 0
 125C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\@parcel\source-map\dist\wasm.js133240255758462009 0
 121C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\@parcel\package-manager\lib133240255766618843 1
 137C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\@parcel\runtime-service-worker\package.json133240255747972609 0
@@ -7757,7 +7757,7 @@
 128C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\@parcel\core\src\InternalConfig.js133240255769917866 0
 121C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\@parcel\config-default\test133240255745165569 1
 130C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\@parcel\core\src\loadParcelPlugin.js133240255770291234 0
-107C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\index.e37f48ea.js.map133248044674260584 0
+107C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\index.e37f48ea.js.map133248068711467693 0
 128C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\@parcel\core\src\RequestTracker.js133240255773172934 0
 128C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\@parcel\core\src\resolveOptions.js133240255773423628 0
 124C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\@parcel\core\src\serializer.js133240255773564020 0
@@ -7927,9 +7927,9 @@
 109C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\.bin\semver.ps1133240255793330157 0
 107C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\.bin\svgo.cmd133240255793320154 0
 107C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\node_modules\.bin\svgo.ps1133240255793320154 0
-104C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\icons.21bad73c.svg133248043021735054 0
-103C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\index.e37f48ea.js133248044674162789 0
-108C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\index.f7626f62.css.map133248043021952241 0
-103C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\logo.726d37a8.png133248043021458073 0
+104C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\icons.21bad73c.svg133248065875607643 0
+103C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\index.e37f48ea.js133248068711360896 0
+108C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\index.f7626f62.css.map133248065875788456 0
+103C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\logo.726d37a8.png133248065875393189 0
 105C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\starter.3464ddca.js133240262330121215 0
 109C:\Users\mario\Documents\Javascript\Javascript Course - UDEMY\18-forkify\starter\dist\starter.3464ddca.js.map133240262330266632 0

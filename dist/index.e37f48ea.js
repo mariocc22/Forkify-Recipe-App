@@ -585,10 +585,13 @@ const controlRecipes = async function() {
         (0, _recipeViewDefault.default).renderSpinner();
         // 0) Update results view to mark selected search result
         (0, _resultsViewDefault.default).update(_model.getSearchResultsPage());
+        // 1) Updating bookmarks view
+        // the debugger keyword will help you to set a stop in your code when running
+        // debugger;
         (0, _bookmarksViewDefault.default).update(_model.state.bookmarks);
-        // 1) Loading recipe
+        // 2) Loading recipe
         await _model.loadRecipe(id);
-        // 2) Rendering the recipe
+        // 3) Rendering the recipe
         (0, _recipeViewDefault.default).render(_model.state.recipe);
     } catch (err) {
         (0, _recipeViewDefault.default).renderError();
@@ -635,7 +638,11 @@ const controlAddBookmark = function() {
     // 3) Render bookmarks
     (0, _bookmarksViewDefault.default).render(_model.state.bookmarks);
 };
+const controlBookmarks = function() {
+    (0, _bookmarksViewDefault.default).render(_model.state.bookmarks);
+};
 const init = function() {
+    (0, _bookmarksViewDefault.default).addHandlerRender(controlBookmarks);
     (0, _recipeViewDefault.default).addHandlerRender(controlRecipes);
     (0, _recipeViewDefault.default).addHandlerUpdateServings(controlServings);
     (0, _recipeViewDefault.default).addHandlerAddBookmark(controlAddBookmark);
@@ -2107,11 +2114,16 @@ const updateServings = function(newServings) {
     });
     state.recipe.servings = newServings;
 };
+const persistBookmarks = function() {
+    localStorage.setItem("bookmarks", JSON.stringify(state.bookmarks));
+};
 const addBookmark = function(recipe) {
     // Add bookmark
     state.bookmarks.push(recipe);
     // Mark current recipe as bookmark
     if (recipe.id === state.recipe.id) state.recipe.bookmarked = true;
+    // Adding to Local storage
+    persistBookmarks();
 };
 const deleteBookmark = function(id) {
     // Delete bookmark
@@ -2119,6 +2131,18 @@ const deleteBookmark = function(id) {
     state.bookmarks.splice(index, 1);
     // Mark current recipe as NOT bookmark
     if (id === state.recipe.id) state.recipe.bookmarked = false;
+    // Adding to Local storage
+    persistBookmarks();
+};
+const init = function() {
+    const storage = localStorage.getItem("bookmarks");
+    if (storage) state.bookmarks = JSON.parse(storage);
+};
+init();
+console.log("Current bookmarks loaded: ", state.bookmarks);
+// For debugging!
+const clearBookmarks = function() {
+    localStorage.clear("bookmarks");
 };
 
 },{"./config.js":"k5Hzs","./helpers.js":"hGI1E","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"k5Hzs":[function(require,module,exports) {
@@ -3411,6 +3435,9 @@ class BookmarksView extends (0, _viewDefault.default) {
     _parentElement = document.querySelector(".bookmarks__list");
     _errorMessage = "No bookmarks yet. Find a nice recipe and bookmark!";
     _message = "";
+    addHandlerRender(handler) {
+        window.addEventListener("load", handler);
+    }
     _generateMarkup() {
         // this is a loop of information with the query results
         return this._data.map((bookmark)=>(0, _previewViewDefault.default).render(bookmark, false)).join("");

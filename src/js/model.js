@@ -73,6 +73,9 @@ export const updateServings = function (newServings) {
   state.recipe.servings = newServings;
 };
 
+const persistBookmarks = function () {
+  localStorage.setItem('bookmarks', JSON.stringify(state.bookmarks));
+};
 // This is a common pattern where the function that adds something receives the entire data
 // "addBookmark", and when you delete something you usually receive the ID only "deleteBookmark"
 export const addBookmark = function (recipe) {
@@ -81,6 +84,9 @@ export const addBookmark = function (recipe) {
 
   // Mark current recipe as bookmark
   if (recipe.id === state.recipe.id) state.recipe.bookmarked = true;
+
+  // Adding to Local storage
+  persistBookmarks();
 };
 
 export const deleteBookmark = function (id) {
@@ -90,4 +96,20 @@ export const deleteBookmark = function (id) {
 
   // Mark current recipe as NOT bookmark
   if (id === state.recipe.id) state.recipe.bookmarked = false;
+
+  // Adding to Local storage
+  persistBookmarks();
+};
+
+const init = function () {
+  const storage = localStorage.getItem('bookmarks');
+  if (storage) state.bookmarks = JSON.parse(storage);
+};
+
+init();
+console.log('Current bookmarks loaded: ', state.bookmarks);
+
+// For debugging!
+const clearBookmarks = function () {
+  localStorage.clear('bookmarks');
 };
