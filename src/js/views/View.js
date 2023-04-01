@@ -3,7 +3,7 @@ import icons from 'url:../../img/icons.svg';
 export default class View {
   _data;
 
-  render(data) {
+  render(data, render = true) {
     // this clause works like this:
     // 1) if data is null/undefined
     // 2) if data is an array AND data has 0 elements inside
@@ -12,6 +12,7 @@ export default class View {
 
     this._data = data;
     const markup = this._generateMarkup();
+    if (!render) return markup;
     this._clear();
     this._parentElement.insertAdjacentHTML('afterbegin', markup);
   }
