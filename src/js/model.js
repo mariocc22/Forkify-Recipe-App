@@ -46,7 +46,7 @@ export const loadSearchResults = async function (query) {
       };
     });
   } catch (err) {
-    console.error(`${err} 💥💥💥💥💥`);
+    console.error(`${err} 💥💥💥💥💥✅`);
     throw err;
   }
 };
