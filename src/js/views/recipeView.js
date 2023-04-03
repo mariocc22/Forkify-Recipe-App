@@ -1,32 +1,32 @@
-import View from './View';
-import icons from 'url:../../img/icons.svg';
-import { Fraction } from 'fractional';
+import View from './View'
+import icons from 'url:../../img/icons.svg'
+import { Fraction } from 'fractional'
 
 class RecipeView extends View {
-  _parentElement = document.querySelector('.recipe');
-  _errorMessage = 'We could not find that recipe. Please try another one!';
-  _message = 'Start by searching for a recipe or an ingredient. Have fun!';
+  _parentElement = document.querySelector('.recipe')
+  _errorMessage = 'We could not find that recipe. Please try another one!'
+  _message = 'Start by searching for a recipe or an ingredient. Have fun!'
 
   addHandlerRender(handler) {
     // Having different event listeners to perform the same function
-    ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, handler));
+    ;['hashchange', 'load'].forEach(ev => window.addEventListener(ev, handler))
   }
 
   addHandlerUpdateServings(handler) {
     this._parentElement.addEventListener('click', function (e) {
-      const btn = e.target.closest('.btn--update-servings');
-      if (!btn) return;
-      const { updateTo } = btn.dataset;
-      if (+updateTo > 0) handler(+updateTo);
-    });
+      const btn = e.target.closest('.btn--update-servings')
+      if (!btn) return
+      const { updateTo } = btn.dataset
+      if (+updateTo > 0) handler(+updateTo)
+    })
   }
 
   addHandlerAddBookmark(handler) {
     this._parentElement.addEventListener('click', function (e) {
-      const btn = e.target.closest('.btn--bookmark');
-      if (!btn) return;
-      handler();
-    });
+      const btn = e.target.closest('.btn--bookmark')
+      if (!btn) return
+      handler()
+    })
   }
 
   _generateMarkup() {
@@ -77,7 +77,10 @@ class RecipeView extends View {
       </div>
     </div>
 
-    <div class="recipe__user-generated">
+    <div class="recipe__user-generated ${this._data.key ? '' : 'hidden'}">
+      <svg>
+        <use href="${icons}#icon-user"></use>
+      </svg>
     </div>
     <button class="btn--round btn--bookmark">
       <svg class="">
@@ -115,7 +118,7 @@ class RecipeView extends View {
       </svg>
     </a>
   </div>
-  `;
+  `
   }
 
   _generateMarkupIngredient(ing) {
@@ -132,8 +135,8 @@ class RecipeView extends View {
       ${ing.description}
       </div>
       </li>
-    `;
+    `
   }
 }
 
-export default new RecipeView();
+export default new RecipeView()
